@@ -1,6 +1,6 @@
 {
-  "name": "@sectionmess/common-v2",
-  "version": "1.0.8",
+  "name": "@sectionmessy/common",
+  "version": "1.0.0",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
