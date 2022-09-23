@@ -3,7 +3,7 @@ import {
   requireAuth,
   NotFoundError,
   NotAuthorizedError,
-} from "@sectionmess/common-v2";
+} from "@sectionmessy/common";
 import { Order } from "../models/order";
 
 const router = express.Router();

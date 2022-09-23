@@ -1,5 +1,5 @@
 import { Message } from "node-nats-streaming";
-import { Subjects, Listener, TicketUpdatedEvent } from "@sectionmess/common-v2";
+import { Subjects, Listener, TicketUpdatedEvent } from "@sectionmessy/common";
 import { Ticket } from "../../models/ticket";
 import { queueGroupName } from "./queue-group-name";
 

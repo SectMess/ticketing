@@ -6,7 +6,7 @@ import {
   NotFoundError,
   OrderStatus,
   BadRequestError,
-} from "@sectionmess/common-v2";
+} from "@sectionmessy/common";
 import { body } from "express-validator";
 import { Ticket } from "../models/ticket";
 import { Order } from "../models/order";

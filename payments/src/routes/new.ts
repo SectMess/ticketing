@@ -7,7 +7,7 @@ import {
   NotAuthorizedError,
   NotFoundError,
   OrderStatus,
-} from "@sectionmess/common-v2";
+} from "@sectionmessy/common";
 import { stripe } from "../stripe";
 import { Order } from "../models/order";
 import { Payment } from "../models/payment";

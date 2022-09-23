@@ -1,8 +1,4 @@
-import {
-  Subjects,
-  Publisher,
-  OrderCancelledEvent,
-} from "@sectionmess/common-v2";
+import { Subjects, Publisher, OrderCancelledEvent } from "@sectionmessy/common";
 
 export class OrderCancelledPublisher extends Publisher<OrderCancelledEvent> {
   subject: Subjects.OrderCancelled = Subjects.OrderCancelled;

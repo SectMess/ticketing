@@ -2,7 +2,7 @@ import {
   Subjects,
   Publisher,
   ExpirationCompleteEvent,
-} from "@sectionmess/common-v2";
+} from "@sectionmessy/common";
 
 export class ExpirationCompletePublisher extends Publisher<ExpirationCompleteEvent> {
   subject: Subjects.ExpirationComplete = Subjects.ExpirationComplete;

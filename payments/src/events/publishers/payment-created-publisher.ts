@@ -1,8 +1,4 @@
-import {
-  Subjects,
-  Publisher,
-  PaymentCreatedEvent,
-} from "@sectionmess/common-v2";
+import { Subjects, Publisher, PaymentCreatedEvent } from "@sectionmessy/common";
 
 export class PaymentCreatedPublisher extends Publisher<PaymentCreatedEvent> {
   subject: Subjects.PaymentCreated = Subjects.PaymentCreated;

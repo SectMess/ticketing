@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import { updateIfCurrentPlugin } from "mongoose-update-if-current";
-import { OrderStatus } from "@sectionmess/common-v2";
+import { OrderStatus } from "@sectionmessy/common";
 
 interface OrderAttrs {
   id: string;

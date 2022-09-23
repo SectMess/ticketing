@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import { requireAuth } from "@sectionmess/common-v2";
+import { requireAuth } from "@sectionmessy/common";
 import { Order } from "../models/order";
 
 const router = express.Router();
